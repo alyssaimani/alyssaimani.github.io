@@ -349,7 +349,7 @@ main {
   background: var(--onyx);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
-  width: max-content;
+  width: auto;
   padding: 3px 12px;
   border-radius: 8px;
 }
@@ -932,6 +932,11 @@ main {
 
 .select-item button:hover { --eerie-black-2: hsl(240, 2%, 20%); }
 
+.link{
+  margin-left: 10px;
+  text-decoration: underline;
+  color: white;
+}
 .project-list {
   display: grid;
   grid-template-columns: 1fr;
